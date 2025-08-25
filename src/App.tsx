@@ -32,7 +32,7 @@ const Group = ({ children }: PropsWithChildren) => (
   </div>
 );
 
-const isStaging = false;
+const isStaging = true;
 
 const baseURl = isStaging
   ? "https://stage-platform-protocols.kgen.io"
