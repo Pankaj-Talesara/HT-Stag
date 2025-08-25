@@ -17,6 +17,8 @@ jobs:
         with:
           node-version: 18
 
+      - run: git config --global user.email "pankajtalesara01@gmail.com"
+      - run: git config --global user.name "Pankaj Talesara"          
       - run: yarn install
       - run: yarn build
 
